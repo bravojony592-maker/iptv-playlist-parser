@@ -37,7 +37,7 @@ Parser.parse = content => {
           title: EXTINF.getAttribute('group-title')
         },
         http: {
-          referrer: '',
+          referrer: EXTINF.getAttribute('referrer'),
           'user-agent': EXTINF.getAttribute('user-agent')
         },
         url: undefined,
